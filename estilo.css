@@ -1,26 +1,91 @@
-body{
-    background:rgb(97, 97, 253);
-    font: normal 15pt Arial;
-
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(0,18,51);
 }
 
-header{
-    color: white;
+#indexH1 {
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
     text-align: center;
 }
 
-section{
-    background: white;
-    border-radius: 10px;
-    padding: 15px;
+#indexH1 > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/*Titulo NPSA*/
+#indexH1 > a:hover {
+    color:  rgb(255, 255, 255);
+}
+
+#links-container {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(0,24,69);
+    text-align: left;
+}
+
+.links > ul > li > a{
+    text-decoration: none;
+    font-size: 2.1em;
+    font-family: Oswald, sans-serif;
+}
+
+.links > ul > li > a:hover{
+    color: rgb(255, 255, 255);
+    font-family: Oswald, sans-serif;
+}
+
+.links > ul > li > a:active{
+    color: rgb(255, 255, 255);
+}
+
+#form > textarea {
+    padding-top: 10px;
+    padding-left: 60px ;
+    padding-right: 60px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 25px;
     width: 500px;
-    margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
-    
+    resize: none;
 }
 
-footer{
+#login > input{
+    border: none;
+    text-decoration: none;
+}
+#btn-Enviar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+    font-weight:bold;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    transition: 400ms ease;
+}
+
+#btn-Enviar:hover {
     color: white;
-    text-align: center;
-    font-style: italic;
+    background-color: rgb(255, 217, 0);
+}
+
+span {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
 }
