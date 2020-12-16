@@ -20,7 +20,7 @@ body {
 }
 /*Titulo NPSA*/
 #indexH1 > a:hover {
-    color:  rgb(255, 255, 255);
+    color:  rgb(55, 122, 247);
 }
 
 #links-container {
@@ -45,7 +45,7 @@ nav {
 }
 
 .links > ul > li > a:hover{
-    color:  rgb(0,18,51);
+    color:  rgb(55, 122, 247);
     font-family: Oswald, sans-serif;
 }
 
@@ -62,6 +62,14 @@ nav {
     text-indent: 25px;
     width: 500px;
     resize: none;
+}
+
+#imagem{
+    padding-left: 10px;
+}
+
+#imagem2{
+    padding-right: 10px;
 }
 
 #login > input{
